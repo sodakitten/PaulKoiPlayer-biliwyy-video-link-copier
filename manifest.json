@@ -1,0 +1,39 @@
+{
+  "manifest_version": 3,
+  "name": "B站链接复制器",
+  "version": "13.0.0",
+  "description": "点击扩展图标后在 https://www.bilibili.com/ 页面复制链接；URL 模式只做播放器地址前缀 + 当前页面网址的简单拼接，不做可播放性判断；标准视频页和 query 里带 bvid/aid/oid 的 B 站页面支持直链优先与双击一次性直链优先。",
+  "permissions": [
+    "activeTab",
+    "scripting",
+    "storage",
+    "clipboardWrite",
+    "offscreen"
+  ],
+  "host_permissions": [
+    "https://www.bilibili.com/*",
+    "https://live.bilibili.com/*",
+    "https://api.bilibili.com/*",
+    "https://api.live.bilibili.com/*",
+    "https://*.bilivideo.com/*",
+    "https://*.hdslb.com/*",
+    "*://music.163.com/*",
+    "*://y.music.163.com/*",
+    "*://m.music.163.com/*",
+    "*://163cn.tv/*",
+    "https://music.znnu.com/*"
+  ],
+  "action": {
+    "default_title": "复制 B 站链接"
+  },
+  "background": {
+    "service_worker": "background.js"
+  },
+  "options_page": "options.html",
+  "icons": {
+    "16": "icons/icon16.png",
+    "32": "icons/icon32.png",
+    "48": "icons/icon48.png",
+    "128": "icons/icon128.png"
+  }
+}

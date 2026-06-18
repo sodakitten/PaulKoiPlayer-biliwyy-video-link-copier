@@ -1,0 +1,53 @@
+<!doctype html>
+<html lang="zh-CN">
+<head>
+  <meta charset="utf-8">
+  <title>B站链接复制器设置</title>
+  <link rel="stylesheet" href="options.css">
+</head>
+<body>
+  <main>
+    <h1>B站链接复制器设置</h1>
+
+    <label>
+      复制优先级
+      <select id="priority">
+        <option value="prefix">解析头优先：复制“播放器地址前缀 + 当前页面网址”</option>
+        <option value="direct">直链优先：优先复制 B 站临时媒体直链，失败时回退解析头</option>
+      </select>
+    </label>
+
+    <label>
+      播放器地址前缀
+      <input id="prefix" type="text" placeholder="https://danmaku.paulkoishi.com/player/?url=">
+    </label>
+
+    <label class="checkbox">
+      <input id="encodeUrl" type="checkbox">
+      自动 URL 编码当前 B 站网址
+    </label>
+
+    <div class="buttons">
+      <button id="save">保存</button>
+      <button id="reset" type="button">恢复默认</button>
+      <button id="useBackupPrefix" type="button">切换备用解析地址</button>
+      <button id="toggleDoubleClick" type="button">切换双击功能</button>
+    </div>
+
+    <p id="status"></p>
+
+    <section>
+      <h2>解析头模式预览</h2>
+      <code id="preview"></code>
+    </section>
+
+    <section class="tips">
+      <h2>说明</h2>
+      <p>点击扩展图标后仍然是“一下复制”，不会打开弹窗。</p>
+      <p>默认是解析头优先，逻辑不变：播放器地址前缀 + 当前 B 站视频页网址；不会判断播放器能不能播放。</p>
+      <p>直链优先会按 Bili-VRC-Parser-0.1.0 的方式请求 B 站播放接口取临时媒体链接；取不到时会自动回退到解析头模式。</p>
+    </section>
+  </main>
+  <script src="options.js"></script>
+</body>
+</html>
