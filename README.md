@@ -30,6 +30,11 @@ https://biliplayer.91vrchat.com/player/?url=
 
 在扩展选项里可以切换备用解析地址，也可以切换双击行为。
 
+## 相关链接
+
+- 默认解析服务：[PaulKoiPlayer Danmaku](https://danmaku.paulkoishi.com/player/?url=)
+- 备用解析地址 `https://biliplayer.91vrchat.com/player/?url=` 是第三方服务，来自：[91VRChat](https://91vrchat.com/)
+
 ## 直链规则
 
 - B 站直播：检测到直播间后，不管单击还是双击都直接提取直播直链。
