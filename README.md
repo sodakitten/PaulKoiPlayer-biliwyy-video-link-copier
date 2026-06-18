@@ -32,7 +32,7 @@ https://biliplayer.91vrchat.com/player/?url=
 
 ## 鸣谢 & 相关链接
 
-- 默认解析服务：[PaulKoiPlayer Danmaku](https://danmaku.paulkoishi.com/player/?url=)
+- 默认解析服务：[PaulKoiPlayer Danmaku](https://danmaku.paulkoishi.com/)
 - 备用解析地址 `https://biliplayer.91vrchat.com/player/?url=` 是第三方服务，来自：[91VRChat](https://91vrchat.com/)
 - 网易云音乐直链解析使用：[music.znnu.com](https://music.znnu.com/)
 - 相关仓库：[sodakitten/PaulKoiPlayer-vrc-bilibili-danmaku](https://github.com/sodakitten/PaulKoiPlayer-vrc-bilibili-danmaku)。如果想自己部署解析服务，可以参考这个仓库。
