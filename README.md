@@ -30,10 +30,12 @@ https://biliplayer.91vrchat.com/player/?url=
 
 在扩展选项里可以切换备用解析地址，也可以切换双击行为。
 
-## 相关链接
+## 鸣谢 & 相关链接
 
 - 默认解析服务：[PaulKoiPlayer Danmaku](https://danmaku.paulkoishi.com/player/?url=)
 - 备用解析地址 `https://biliplayer.91vrchat.com/player/?url=` 是第三方服务，来自：[91VRChat](https://91vrchat.com/)
+- 网易云音乐直链解析使用：[music.znnu.com](https://music.znnu.com/)
+- 相关仓库：[sodakitten/PaulKoiPlayer-vrc-bilibili-danmaku](https://github.com/sodakitten/PaulKoiPlayer-vrc-bilibili-danmaku)。如果想自己部署解析服务，可以参考这个仓库。
 
 ## 直链规则
 
