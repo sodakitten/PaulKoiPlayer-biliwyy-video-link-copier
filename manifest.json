@@ -1,8 +1,9 @@
 {
   "manifest_version": 3,
-  "name": "B站链接复制器",
+  "name": "PaulKoiPlayer B站网易云链接复制器",
+  "short_name": "PK链接复制",
   "version": "13.0.0",
-  "description": "点击扩展图标后在 https://www.bilibili.com/ 页面复制链接；URL 模式只做播放器地址前缀 + 当前页面网址的简单拼接，不做可播放性判断；标准视频页和 query 里带 bvid/aid/oid 的 B 站页面支持直链优先与双击一次性直链优先。",
+  "description": "一键复制 B 站视频/直播/分 P 和网易云音乐/歌单的播放器解析地址或媒体直链，适配 PaulKoiPlayer / YamaPlayer。",
   "permissions": [
     "activeTab",
     "scripting",
