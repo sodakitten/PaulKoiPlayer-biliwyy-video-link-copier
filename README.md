@@ -1,4 +1,8 @@
-# PaulKoiPlayer B站 / 网易云链接复制器 v13
+<p align="center">
+  <img src="assets/paulkoiplayer-logo.png" width="180" alt="PaulKoiPlayer logo">
+</p>
+
+# PaulKoiPlayer B站 / 网易云链接复制器 v13.1
 
 Chrome Manifest V3 扩展。点击扩展图标后，把当前页面转换成 YamaPlayer / PaulKoiPlayer 可用的播放链接，或直接复制媒体直链。
 
@@ -71,3 +75,7 @@ https://biliplayer.91vrchat.com/player/?url=
 - 是否 URL 编码当前页面网址
 - 切换备用解析地址
 - 切换双击功能
+
+## v13.1 更新
+
+- 扩展图标、选项页和介绍页统一替换为 PaulKoiPlayer logo。
