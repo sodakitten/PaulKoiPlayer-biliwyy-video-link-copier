@@ -2,12 +2,12 @@
 <html lang="zh-CN">
 <head>
   <meta charset="utf-8">
-  <title>B站链接复制器设置</title>
+  <title>PaulKoiPlayer 链接复制器设置</title>
   <link rel="stylesheet" href="options.css">
 </head>
 <body>
   <main>
-    <h1>B站链接复制器设置</h1>
+    <h1>PaulKoiPlayer 链接复制器设置</h1>
 
     <label>
       复制优先级
@@ -24,7 +24,7 @@
 
     <label class="checkbox">
       <input id="encodeUrl" type="checkbox">
-      自动 URL 编码当前 B 站网址
+      自动 URL 编码当前页面网址
     </label>
 
     <div class="buttons">
@@ -44,8 +44,8 @@
     <section class="tips">
       <h2>说明</h2>
       <p>点击扩展图标后仍然是“一下复制”，不会打开弹窗。</p>
-      <p>默认是解析头优先，逻辑不变：播放器地址前缀 + 当前 B 站视频页网址；不会判断播放器能不能播放。</p>
-      <p>直链优先会按 Bili-VRC-Parser-0.1.0 的方式请求 B 站播放接口取临时媒体链接；取不到时会自动回退到解析头模式。</p>
+      <p>默认是解析头优先，逻辑不变：播放器地址前缀 + 当前页面网址；不会判断播放器能不能播放。</p>
+      <p>直链优先会按当前页面类型请求 B 站或网易云音乐接口取临时媒体链接；取不到时会自动回退到解析头模式。</p>
     </section>
   </main>
   <script src="options.js"></script>

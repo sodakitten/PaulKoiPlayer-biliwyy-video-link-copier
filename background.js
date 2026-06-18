@@ -211,7 +211,7 @@ async function ensureOffscreenDocument() {
   await chrome.offscreen.createDocument({
     url: 'offscreen.html',
     reasons: ['CLIPBOARD'],
-    justification: 'Copy generated Bilibili video URL to clipboard when extension icon is clicked.'
+    justification: 'Copy the generated playback URL to clipboard when the extension icon is clicked.'
   });
 }
 
