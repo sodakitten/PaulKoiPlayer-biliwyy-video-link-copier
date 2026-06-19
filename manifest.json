@@ -2,7 +2,7 @@
   "manifest_version": 3,
   "name": "__MSG_extensionName__",
   "short_name": "__MSG_extensionShortName__",
-  "version": "13.1.1",
+  "version": "13.1.2",
   "default_locale": "zh_CN",
   "description": "__MSG_extensionDescription__",
   "permissions": [

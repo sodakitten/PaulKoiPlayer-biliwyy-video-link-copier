@@ -2,9 +2,9 @@
   <img src="assets/paulkoiplayer-logo.png" width="180" alt="PaulKoiPlayer logo">
 </p>
 
-# PaulKoiPlayer B站 / 网易云链接复制器 v13.1.1
+# PaulKoiPlayer B站网易云2VRC直链复制器 v13.1.2
 
-Chrome Manifest V3 扩展。点击扩展图标后，把当前页面转换成 YamaPlayer / PaulKoiPlayer 可用的播放链接，或直接复制媒体直链。
+Chrome Manifest V3 扩展。点击扩展图标后，把当前页面转换成 PaulKoiPlayer 和 VRChat 世界播放器可用的播放链接，或直接复制媒体直链。
 
 ## 支持范围
 
@@ -84,3 +84,8 @@ https://biliplayer.91vrchat.com/player/?url=
 
 - 扩展包加入 `zh_CN` 默认语言，让 Edge Add-ons 自动识别为中文商店语言。
 - manifest 短描述去掉 YamaPlayer，仅保留 PaulKoiPlayer 和 VRChat 世界播放器说明。
+
+## v13.1.2 更新
+
+- 扩展显示名改为 `PaulKoiPlayer B站网易云2VRC直链复制器`。
+- 短名称改为 `PK2VRC直链`。

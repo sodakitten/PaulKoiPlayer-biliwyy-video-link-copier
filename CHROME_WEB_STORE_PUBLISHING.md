@@ -2,8 +2,8 @@
 
 ## 基本信息
 
-- 扩展名称：PaulKoiPlayer B站网易云链接复制器
-- 简短描述：一键复制 B 站视频/直播/分 P 和网易云音乐/歌单的播放器解析地址或媒体直链，适配 PaulKoiPlayer / YamaPlayer。
+- 扩展名称：PaulKoiPlayer B站网易云2VRC直链复制器
+- 简短描述：一键生成并复制 B 站视频/直播/分 P 和网易云音乐/歌单的播放器解析地址或媒体直链，适配 PaulKoiPlayer 和 VRChat 世界播放器。
 - 建议类别：生产力 / 工具
 - 建议语言：简体中文
 - 官网 / 支持链接：https://github.com/sodakitten/PaulKoiPlayer-biliwyy-video-link-copier
@@ -11,7 +11,7 @@
 
 ## 详细描述
 
-PaulKoiPlayer B站网易云链接复制器是一个给 VRChat 世界播放器、YamaPlayer 和 PaulKoiPlayer 使用的链接复制工具。
+PaulKoiPlayer B站网易云2VRC直链复制器是一个给 VRChat 世界播放器和 PaulKoiPlayer 使用的链接复制工具。
 
 点击扩展图标后，它会根据当前页面自动复制播放器解析地址或媒体直链。
 
