@@ -1,0 +1,18 @@
+{
+  "extensionName": {
+    "message": "PaulKoiPlayer B站网易云链接复制器",
+    "description": "扩展名称"
+  },
+  "extensionShortName": {
+    "message": "PK链接复制",
+    "description": "扩展短名称"
+  },
+  "extensionDescription": {
+    "message": "一键复制 B 站视频/直播/分 P 和网易云音乐/歌单的播放器解析地址或媒体直链，适配 PaulKoiPlayer 和 VRChat 世界播放器。",
+    "description": "扩展简介"
+  },
+  "extensionActionTitle": {
+    "message": "复制播放链接",
+    "description": "扩展图标悬停标题"
+  }
+}

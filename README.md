@@ -2,7 +2,7 @@
   <img src="assets/paulkoiplayer-logo.png" width="180" alt="PaulKoiPlayer logo">
 </p>
 
-# PaulKoiPlayer B站 / 网易云链接复制器 v13.1
+# PaulKoiPlayer B站 / 网易云链接复制器 v13.1.1
 
 Chrome Manifest V3 扩展。点击扩展图标后，把当前页面转换成 YamaPlayer / PaulKoiPlayer 可用的播放链接，或直接复制媒体直链。
 
@@ -79,3 +79,8 @@ https://biliplayer.91vrchat.com/player/?url=
 ## v13.1 更新
 
 - 扩展图标、选项页和介绍页统一替换为 PaulKoiPlayer logo。
+
+## v13.1.1 更新
+
+- 扩展包加入 `zh_CN` 默认语言，让 Edge Add-ons 自动识别为中文商店语言。
+- manifest 短描述去掉 YamaPlayer，仅保留 PaulKoiPlayer 和 VRChat 世界播放器说明。

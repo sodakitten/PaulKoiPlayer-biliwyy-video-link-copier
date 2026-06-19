@@ -1,9 +1,10 @@
 {
   "manifest_version": 3,
-  "name": "PaulKoiPlayer B站网易云链接复制器",
-  "short_name": "PK链接复制",
-  "version": "13.1.0",
-  "description": "一键复制 B 站视频/直播/分 P 和网易云音乐/歌单的播放器解析地址或媒体直链，适配 PaulKoiPlayer / YamaPlayer。",
+  "name": "__MSG_extensionName__",
+  "short_name": "__MSG_extensionShortName__",
+  "version": "13.1.1",
+  "default_locale": "zh_CN",
+  "description": "__MSG_extensionDescription__",
   "permissions": [
     "activeTab",
     "scripting",
@@ -25,7 +26,7 @@
     "https://music.znnu.com/*"
   ],
   "action": {
-    "default_title": "复制播放链接"
+    "default_title": "__MSG_extensionActionTitle__"
   },
   "background": {
     "service_worker": "background.js"
